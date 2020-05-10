@@ -1,0 +1,27 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px #df559a solid;
+    margin-bottom: 10px;
+}
+
+body {
+    font-size: 17px;
+    font-family: arial;
+    line-height: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}

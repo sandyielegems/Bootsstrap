@@ -1,0 +1,5 @@
+body {
+  overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+  color: #505962;
+}
