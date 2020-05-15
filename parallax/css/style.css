@@ -1,0 +1,58 @@
+body {
+    background: #333;
+    color: #fff;
+    /* font-family: "Lato"; */
+    /* font-family: "Raleway"; */
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    text-align: center;
+}
+
+#home-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+#home-section .home-inner {
+    padding-top: 350px;
+}
+
+.parallax {
+    background-image: url("../img/header-bg.jpg");
+    /* specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
