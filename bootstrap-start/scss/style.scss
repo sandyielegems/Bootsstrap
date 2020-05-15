@@ -1,0 +1,12 @@
+// 1: overrides van default bootstrap voorkeuren
+$blue: hotpink;
+$font-family-sans-serif: "Raleway",
+sans-serif;
+//
+// 2: laden van bootstrap (en compilen)
+@import "bootstrap/bootstrap";
+//
+// 3: eigen code:
+body {
+    background-color: pink;
+}
